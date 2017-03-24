@@ -27,8 +27,6 @@ averages[which.max(averages$steps),]
 
 ## ----how_many_missing----------------------------------------------------
 missing <- is.na(data$steps)
-# How many missing
-table(missing)
 
 
 ## ------------------------------------------------------------------------
